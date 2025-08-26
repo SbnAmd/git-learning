@@ -46,3 +46,16 @@ git reset ./newfolder
 ```
 
 To see the log of commits, use code `git log`.
+
+
+## Cloning remote project
+Syntax for cloning
+```
+git clone <url> <where to download>
+git clone <url> ./Desktop/project
+```
+
+The `git branch -a` shows all branches locally or remotely.
+The `git diff` shows the lates difference beteem now and latest commit.
+
+Remember to __pull__ the repo before commit so you have the latest changes and then commit new changes
