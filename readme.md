@@ -37,3 +37,12 @@ git add ./newfolder
 ```
 
 To ignore some files of folders, the `.gitignore` must be created and those files or folders must be written in it.
+
+To unstage a file or dir just use code below
+
+```
+git reset .gitignore
+git reset ./newfolder
+```
+
+To see the log of commits, use code `git log`.
