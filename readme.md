@@ -82,4 +82,13 @@ The `-u` option associates the local-branch to the remote
 
 ## Merging
 
+For Merging another branch to the current branch , just use code below
+```
+git merge other-branch-to-merge
+```
 
+And use code below to see which branches have been merged till now
+
+```
+git branch --merged
+```
