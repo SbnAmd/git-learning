@@ -104,3 +104,20 @@ To delete a branch __remotely__ use command below
 ```
 git push origin --delete branch-to-remove
 ```
+
+## Sharing on github
+To share local project on github follow steps bellow
+```
+git remote add origin https://github.com/your-username/my-project.git
+
+```
+
+Rename the branch
+```
+git branch -M main
+```
+
+Then push your project to github
+```
+git push -u origin main
+```
