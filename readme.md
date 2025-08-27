@@ -59,3 +59,4 @@ The `git branch -a` shows all branches locally or remotely.
 The `git diff` shows the lates difference beteem now and latest commit.
 
 Remember to `git pull origin master` the repo before commit so you have the latest changes and then commit new changes
+Then you can do `git push origin master` to upload your changes to remote repo
