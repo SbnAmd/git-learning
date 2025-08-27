@@ -60,3 +60,26 @@ The `git diff` shows the lates difference beteem now and latest commit.
 
 Remember to `git pull origin master` the repo before commit so you have the latest changes and then commit new changes
 Then you can do `git push origin master` to upload your changes to remote repo
+
+#### Note
+If the remote repo is an active repo, meaning that it is not a bare (storage-only) repo, you can not push to the same active branch
+
+## Creating branch
+The syntax to create a branch and check it out, is like below
+```
+git branch develop
+git checkout develop
+```
+
+## Pushing new branch to remote
+For uploading new branches to remote repo, just use code below once and after that we can just use `git push` or `git pull`
+
+```
+git push -u origin local-branch
+```
+
+The `-u` option associates the local-branch to the remote
+
+## Merging
+
+
