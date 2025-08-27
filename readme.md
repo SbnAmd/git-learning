@@ -92,3 +92,15 @@ And use code below to see which branches have been merged till now
 ```
 git branch --merged
 ```
+
+## Deleting branch
+
+To delete a branch __locally__ use cmd below
+```
+git branch -d branch-to-remove
+```
+
+To delete a branch __remotely__ use command below
+```
+git push origin --delete branch-to-remove
+```
